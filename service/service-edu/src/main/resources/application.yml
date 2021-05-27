@@ -11,10 +11,15 @@ spring:
     url: jdbc:mysql://121.40.59.197:3306/edu_online?serverTimezone=GMT%2B8&characterEncoding=utf-8
     username: root
     password: 123456
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
 
 
 #mybatis-plus日志
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+#json时间格式化
 
